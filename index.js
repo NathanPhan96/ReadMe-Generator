@@ -1,13 +1,13 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-const genMarkdown = require('./utils/generateMarkdown');
+const genMarkdown = require('.Develop/utils/generateMarkdown');
 const fs = require('fs');
 // TODO: Create an array of questions for user input
 const questions = [
     {    
         type: 'input',
-        message: 'What do you want your README file to be named?',
-        name : 'fileName'  
+        message: "What do you want the name of the file to be?",
+        name: 'fileName'
       },
       {
           type: 'input',
